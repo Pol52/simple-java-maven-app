@@ -38,6 +38,9 @@
         <version>3.0.2</version>
         <configuration>
           <appName>morning-thicket-10441</appName>
+          <processTypes>
+            <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+          </processTypes>
         </configuration>
       </plugin>
     </plugins>
