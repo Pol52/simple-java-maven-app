@@ -24,7 +24,7 @@ pipeline {
                 }
         stage('Deliver') {
                     steps {
-                        sh 'mvn clean heroku:deploy'
+                        sh 'mvn -e clean heroku:deploy'
                     }
                 }
     }
